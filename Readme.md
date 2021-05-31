@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Денис Макушкин](https://up.htmlacademy.ru/htmlcss/31/user/1640315).
-* Наставник: `Неизвестно`.
+* Наставник: [Артем Шомин](https://htmlacademy.ru/profile/sirnet).
 
 ---
 
