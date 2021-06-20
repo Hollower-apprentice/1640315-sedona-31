@@ -1,0 +1,159 @@
+:root {
+  --carbon: #333333;
+  --light-blue: #81b3d2;
+  --red-gray: #766357;
+  --blue-gray: #81B3D2;
+  --basic-black: #000000;
+  --basic-white: #ffffff;
+}
+
+.page {
+  height: 100%;
+}
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-navigation-wrapper {
+  background-color: var(--basic-white);
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover {
+  color: var(--light-blue);
+}
+
+.site-navigation a:active {
+  color: var(--basic-black);
+  opacity: 0.5;
+}
+
+.site-navigation a:focus {
+  color: var(--red-gray);
+}
+
+.welcome-background {
+  background-image: url(../img/background_photo.jpg), url(../img/background_shape.jpg);
+  background-size: auto, 1200px 518px;
+  background-repeat: no-repeat;
+}
+
+.feature-description h2 {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.feature-description p {
+  color: var(--carbon);
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.feature-item-deployed {
+  color: var(--basic-white);
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  background-color: var(--light-blue);
+}
+
+.feature-item-deployed h2 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.feature-item h1 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.feature-item p,
+.feature-item span {
+  color: var(--carbon);
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase; 
+}
+
+.bottom-line-feature {
+  background-color: #EEEEEE;
+}
+
+.booking {
+  font-size: 30px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.booking h1 {
+  font-weight: bold;
+}
+
+.booking-button {
+  color: var(--basic-white);
+  background-color: var(--red-gray);
+}
+
+.booking-button:hover {
+  color: var(--basic-white);
+  background-color: #604E43;
+}
+
+.booking-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #503E33;
+}
+
+.main-footer {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-contact {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
